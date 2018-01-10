@@ -1,6 +1,29 @@
 package suibian2;
 
-////·Çµİ¹é
+
+//é€’å½’
+public class Fibonacci {
+
+  // ä½¿ç”¨é€’å½’æ–¹æ³•
+  private static int getFibo(int i) {
+      if (i == 1 || i == 2)
+          return 1;
+      else
+          return getFibo(i - 1) + getFibo(i - 2);
+  }
+  public static void main(String[] args) {
+      System.out.println("æ–æ³¢é‚£å¥‘æ•°åˆ—çš„å‰20é¡¹ä¸ºï¼š");
+      for (int j = 1; j <= 20; j++) {
+          System.out.print(getFibo(j) + " ");
+
+          /*æ¯éš”5ä¸ªæ•°æ¢è¡Œ
+           * if (j % 5 == 0)
+              System.out.println();*/
+      }
+  }
+}
+
+////éé€’å½’
 //public class Fibonacci {
 //    public static void main(String[] args) {
 //        print(13);
@@ -23,24 +46,3 @@ package suibian2;
 //    }
 //}
 
-//µİ¹é
-public class Fibonacci {
-
-  // Ê¹ÓÃµİ¹é·½·¨
-  private static int getFibo(int i) {
-      if (i == 1 || i == 2)
-          return 1;
-      else
-          return getFibo(i - 1) + getFibo(i - 2);
-  }
-  public static void main(String[] args) {
-      System.out.println("ì³²¨ÄÇÆõÊıÁĞµÄÇ°20ÏîÎª£º");
-      for (int j = 1; j <= 20; j++) {
-          System.out.print(getFibo(j) + " ");
-
-          /*Ã¿¸ô5¸öÊı»»ĞĞ
-           * if (j % 5 == 0)
-              System.out.println();*/
-      }
-  }
-}
