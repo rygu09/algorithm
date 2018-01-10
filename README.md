@@ -2,6 +2,8 @@
 
 ### 排序
 
+[冒泡排序](https://github.com/rygu09/algorithm/blob/master/Bubble_Sort.java)
+
 [插入排序](https://github.com/rygu09/algorithm/blob/master/Insert_Sort.java)
 
 [希尔排序](https://github.com/rygu09/algorithm/blob/master/Shell_Sort.java)
@@ -13,7 +15,6 @@
 [快排](https://github.com/rygu09/algorithm/blob/master/Quicksort.java)
 
 [归并排序](https://github.com/rygu09/algorithm/blob/master/Merge_Sort.java)
-
 
 
 ### 查找
