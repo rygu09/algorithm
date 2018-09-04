@@ -62,8 +62,9 @@ public class Merge_Sort {
 
 	    // 把新数组中的数覆盖nums数组
 	    // 注意nums[k2+low]
-	    for (int k2 = 0; k2 < temp.length; k2++) {
-	        nums[k2 + low] = temp[k2];
+	    k=0;
+	    while(low<high){
+	    	nums[low++]=temp[k++];
 	    }
 	}
 	
